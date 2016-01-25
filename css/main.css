@@ -1,0 +1,96 @@
+/* 
+ *   Created on : Jan 8, 2016, 5:03:14 PM
+ *   Author     : Matthew 'siD' Van der Bijl
+ */
+@charset "utf-8";
+
+@font-face {
+    font-family:'Ubuntu';
+    font-style:normal;
+    font-weight:400;
+    src:local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v8/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2');
+}
+@font-face {
+    font-family:'Ubuntu';
+    font-style:normal;
+    font-weight:700;
+    src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v8/0ihfXUL2emPh0ROJezvraFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+
+/* General + IDs */
+html {
+    margin-left:10%;
+    margin-right:10%;
+    font-family:Ubuntu, "times new roman", times, roman, serif;
+}
+
+body {
+    max-width:900px;
+    margin:0 auto !important;
+    float:none !important;
+}
+
+q {
+    font-style:italic;
+}
+
+A:link, A:active, A:visited {
+    color:inherit; 
+    text-decoration:none;
+}
+A:hover {
+    color:inherit;
+    text-decoration:underline;
+}
+
+a[href], input[type='submit'], input[type='image'],
+label[for], select, button, .pointer {
+    cursor: pointer;
+}
+
+dd {
+    border-bottom:solid #006 1px;
+}.boxcontent
+dd.last {
+    border:none!important;
+    padding-bottom:0.0em;
+}
+dt {
+    padding-top:1.0em;
+    margin-bottom:.5em;
+    font-weight:bold;
+    color:inherit;
+}
+dt.first {
+    padding-top:0.0em;
+    margin-bottom:0.5em;
+    font-weight:bold;
+    color:inherit;
+}
+dd {
+    margin-left:1em;
+    padding-bottom:1.5em;
+}
+
+table {
+    font-family:verdana;
+    border-collapse:separate;
+    empty-cells:hide;    
+}
+td, th {
+    padding:3px;
+}
+td {
+    font-size:8pt;
+}
+th {   
+    text-align:left;
+    font-size:10pt;
+    background-color:#4CAF50;
+}
+tr:nth-child(odd) {
+    background-color:#999999;
+}
+tr:nth-child(even) {
+    background-color:#E5E5E5;
+}
